@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aselyn Cleaning Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+
+        }
+        body {
+            background-image: url('man.jpg');
+            background-size: cover; /* Image will fill the container without cropping */
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 70vh; /* Make sure the body covers full height */
+        }
+        header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #000036;
+      color: white;
+      padding: 1rem 0;
+      z-index: 1000; /* Ensure it stays above other content */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+        }
+        nav {
+      position: fixed;
+      top: 150px; /* Place navigation just below the header */
+      left: 0;
+      width: 100%;
+      height: 8vh;
+      justify-content: center;
+      display: flex;
+      background-color: #3a3a3a;
+      color: rgb(0, 0, 0);
+      z-index: 999; /* Slightly below the header if they overlap */
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+        nav a {
+            color: #ffffff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #5c584c;
+            color: black;
+            margin: 10px 15px;
+        }
+        .About {
+            display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+        }
+        .About-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 500px;
+            height: 200px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transform: translateY(200px);
+        }
+        .our {
+            margin: 2rem 0;
+            text-align: center;
+            transform: translateY(590px);
+        }
+        .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .service-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      width: 200px;
+      height: 140px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transform: translateY(250px);
+    }
+    .service-item img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .service-item h3 {
+      color: #333;
+    }
+    .service-item p {
+      color: #666;
+    }
+    .contact  {
+      margin: 20px;
+      padding: 90px;
+      max-width: 100%;
+      text-align: center;
+      transform: translateY(300px);
+      bottom: auto;
+    }
+        .floating-text {
+      position: relative;
+      animation: float-down  infinite ease-in-out;
+      font-size: 24px;
+      font-family: 'Franklin Gothic Medium';
+      color: #ffffff;
+    }
+
+    @keyframes float-down {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(30px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    .text {
+        font-size: 25px;
+        color: #ffffff;
+        position: relative; /* Position the main content independently */
+      margin: 20px; /* Add space around the main content */
+      padding: 20px;
+      border-radius: 12px; /* Optional: Add rounded corners */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+      transform: translateY(-1470PX);  
+      animation: float-down 3s infinite ease-in-out;
+      margin-top: -170px;
+    }
+    .main-content {
+      position: relative; /* Position the main content independently */
+      margin: 4px; /* Add space around the main content */
+      padding: 20px;
+      border-radius: 12px; /* Optional: Add rounded corners */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+      transform: translateY(410PX);
+    }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: -7rem 0;
+            position: fixed;
+            width: 100%;
+            height: 65px;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="floating-text"><h1>Welcome to Aselyn Cleaning Agency</h1></div>
+    </header>
+
+    <nav>
+        <a href="C:\Users\TIMOTHY TUABU\OneDrive\Desktop\ASELYN CLEANING AGENCY\Aselyn Cleaning Agency.html">Home</a>
+        <a href="#home">About Us</a>
+        <a href="C:\Users\TIMOTHY TUABU\OneDrive\Desktop\ASELYN CLEANING AGENCY\our services.html">Our Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <main class="main-content">  
+        <div class="text">
+            <h1>YOUR NO.1 CLEANING AGENCY</h1>
+        <p>Professional cleaning services for your home and office.</p>
+    </div>
+    <div>
+        <div class="our">
+        <h2>OUR SERVICES</h2>
+        </div>
+    </div>
+    <div class="About">
+        <div class="About-item">
+            <h2>ABOUT US</h2>
+            <p>We are a professional cleaning agency dedicated to making your home and office spotless.
+               Our team of experienced cleaners use the best products and techniques to ensure your space is clean and hygienic.</p>
+        </div>
+        <div class="About-item">
+            <h2>WHY CHOOSE US</h2>
+            <p>Aselyn Cleaning Agency provides a variety of cleaning solutions to customers in Tamale.
+               We have a reputation for excellent service!  Choose us to serve you best!</p>
+        </div>
+    </div>
+    <div class="services">
+        <div class="service-item">
+          <h3>Commercial Cleaning</h3>
+          <p>We follow a structured cleaning plan to maintain your office appropriately.</p>
+        </div>
+        <div class="service-item">        
+          <h3>House Cleaning</h3>
+          <p>Complete apartment and house cleaning services by professional cleaners.</p>
+        </div>
+        <div class="service-item">        
+          <h3>Carpet Cleaning</h3>
+          <p>Your carpets will be professionally cleaned and treated.</p>
+        </div>
+        <div class="service-item">
+          <h3>Window Cleaning</h3>
+          <p>The highest quality window cleaning service at a competitive price.</p>
+        </div>
+        <div class="service-item">
+          <h3>Post Construction Cleaning</h3>
+          <p>Get rid of the dust left behind after construction or renovation.</p>
+        </div>
+        <div class="service-item">
+          <h3>Move In – Out Service</h3>
+          <p>We will leave the place you're leaving looking even better than when you moved in.</p>
+        </div>
+      </div>
+
+    <div class="contact">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to book our services, please contact us:</p>
+            <p>Email: info@aselyncleaningagency.com</p>
+            <p>Phone: (233) 202 261 651   / (233) 240 102 340</p>
+        </section>
+    </div>
+    
+</main>
+    <footer>
+        <p>&copy; 2023 Aselyn Cleaning Agency. All rights reserved.</p>
+    </footer>
+</body>
+</html>
